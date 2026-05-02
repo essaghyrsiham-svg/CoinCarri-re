@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-deep-blue">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-deep-blue pt-16">
       <div className="absolute inset-0 z-0">
         <img 
           src="https://www.maroccallcenter.com/wp-content/uploads/2019/05/back-office.jpg" 
