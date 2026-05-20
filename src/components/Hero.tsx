@@ -23,8 +23,7 @@ export default function Hero() {
 
   <div class="hero-image">
     
-    <img src="YOUR-IMAGE.png" alt="CoinCarrière Hero">
-
+    <img src="/hero-image.png" alt="Hero CoinCarrière">
     <div class="stat-card card-1">
       <span>+127%</span>
       <p>Évolution des résultats</p>
