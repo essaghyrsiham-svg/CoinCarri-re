@@ -23,3 +23,150 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:60px;
+  padding:80px 8%;
+  background:#f8fbff;
+  overflow:hidden;
+}
+
+.hero-content{
+  max-width:550px;
+}
+
+.hero-content h1{
+  font-size:64px;
+  line-height:1.1;
+  font-weight:800;
+  color:#071b3b;
+  margin-bottom:24px;
+}
+
+.hero-content p{
+  font-size:20px;
+  line-height:1.6;
+  color:#4b5b7a;
+  margin-bottom:35px;
+}
+
+.hero-btn{
+  display:inline-block;
+  background:#0d6efd;
+  color:white;
+  padding:18px 34px;
+  border-radius:14px;
+  font-weight:700;
+  text-decoration:none;
+  transition:0.3s ease;
+}
+
+.hero-btn:hover{
+  transform:translateY(-3px);
+  background:#0056d6;
+}
+
+/* HERO IMAGE */
+
+.hero-image{
+  position:relative;
+  animation:floatHero 4s ease-in-out infinite;
+}
+
+.hero-image img{
+  width:650px;
+  max-width:100%;
+  border-radius:24px;
+}
+
+/* FLOAT */
+
+@keyframes floatHero{
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-12px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+}
+
+/* STAT CARDS */
+
+.stat-card{
+  position:absolute;
+  background:white;
+  padding:20px 24px;
+  border-radius:20px;
+  box-shadow:0 10px 40px rgba(0,0,0,0.08);
+  animation:floatCard 3s ease-in-out infinite;
+}
+
+.stat-card span{
+  font-size:42px;
+  font-weight:800;
+  color:#0d6efd;
+  display:block;
+}
+
+.stat-card p{
+  margin-top:8px;
+  color:#56627a;
+  font-size:16px;
+}
+
+.card-1{
+  top:30px;
+  left:-40px;
+}
+
+.card-2{
+  bottom:40px;
+  right:-40px;
+  animation-delay:1s;
+}
+
+@keyframes floatCard{
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-8px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+}
+
+/* MOBILE */
+
+@media(max-width:990px){
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    padding:60px 20px;
+  }
+
+  .hero-content h1{
+    font-size:42px;
+  }
+
+  .hero-content p{
+    font-size:18px;
+  }
+
+  .card-1,
+  .card-2{
+    transform:scale(0.8);
+  }
+
+}
