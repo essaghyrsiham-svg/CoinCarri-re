@@ -1,14 +1,7 @@
 import { motion } from "motion/react";
 
 export default function Navbar() {
-  const navLinks = [
-    { name: "Processus", href: "#process" },
-    { name: "Avantages", href: "#benefits" },
-    { name: "Avis", href: "#testimonials" },
-    { name: "L'Expérience", href: "#transformation" },
-  ];
-
-  return (
+  
     <nav className="fixed top-0 left-0 w-full bg-white px-8 py-[14px] z-50 shadow-[0_2px_6px_rgba(0,0,0,0.05)]">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <motion.div 
