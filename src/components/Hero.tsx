@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   // هادا الرابط المباشر اللي حولناه من الـ Drive ديالك باش يقرأ السورس ديال الصورة نيشان
-  const bgImageUrl = "https://lh3.googleusercontent.com/d/1i9AaeSEbabOTFzC8CDi6SFneWIQBpUI0";
+  const bgImageUrl = "https://drive.google.com/file/d/1QKB8qHh_0WY3OAFaDHa00hIkgipCX0n9/view?usp=drivesdk";
 
   return (
     <section 
