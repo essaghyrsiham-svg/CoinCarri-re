@@ -40,7 +40,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="/hero-image.png" alt="" />
+        <img src="/hero-image.png" />
         
         <div className="stat-card card-1">
           <span>+127%</span>
