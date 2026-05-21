@@ -1,14 +1,14 @@
 import { motion } from "motion/react";
 
 export default function Hero() {
-  // الرابط الجديد ديال الخلفية اللي صيفطتِ مأخوذ من الـ Drive مباشرة
+  // الرابط المباشر والمستقر المولد من الصورة الجديدة ديالك
   const bgImageUrl = "https://lh3.googleusercontent.com/d/1QKB8qHh_0WY3OAFaDHa00hIkgipCX0n9";
 
   return (
     <section 
       className="hero" 
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)), url(${bgImageUrl})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url(${bgImageUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -40,7 +40,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="IMG-20260521-WA0004.jpg" />
+        <img src="/hero-image.png" alt="Hero CoinCarrière" />
         
         <div className="stat-card card-1">
           <span>+127%</span>
