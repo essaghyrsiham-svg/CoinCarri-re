@@ -28,7 +28,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="/hero-image.png" alt="Hero CoinCarrière" />
+        <img src="https://drive.google.com/file/d/1i9AaeSEbabOTFzC8CDi6SFneWIQBpUI0/view?usp=drivesdk" alt="Hero CoinCarrière" />
         
         <div className="stat-card card-1">
           <span>+127%</span>
