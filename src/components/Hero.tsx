@@ -1,8 +1,20 @@
 import { motion } from "motion/react";
 
 export default function Hero() {
+  // هادا الرابط المباشر اللي حولناه من الـ Drive ديالك باش يقرأ السورس ديال الصورة نيشان
+  const bgImageUrl = "https://lh3.googleusercontent.com/d/1i9AaeSEbabOTFzC8CDi6SFneWIQBpUI0";
+
   return (
-    <section className="hero">
+    <section 
+      className="hero" 
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.8)), url(${bgImageUrl})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        position: 'relative'
+      }}
+    >
       <div className="hero-content">
         <h1>
           Recrutez plus vite les meilleurs talents.
@@ -28,7 +40,7 @@ export default function Hero() {
       </div>
 
       <div className="hero-image">
-        <img src="https://drive.google.com/file/d/1i9AaeSEbabOTFzC8CDi6SFneWIQBpUI0/view?usp=drivesdk" alt="Hero CoinCarrière" />
+        <img src="/hero-image.png" alt="Hero CoinCarrière" />
         
         <div className="stat-card card-1">
           <span>+127%</span>
